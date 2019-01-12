@@ -19,11 +19,6 @@ namespace ProjetoBanco
             Endereco = endereco;
         }
 
-        public bool MaiorDeIdade()
-        {
-            var nascimentoMinimo = DateTime.Now.AddYears(-18); //data atual menos 18 anos
-            var maiorDeIdade = DataNascimento <= nascimentoMinimo; // verifica se a data de nascimento é menor ou igual ao nascimentoMinimo, com o <= é maior fácil que usar if
-            return maiorDeIdade;
-        }
+        
     }
 }
